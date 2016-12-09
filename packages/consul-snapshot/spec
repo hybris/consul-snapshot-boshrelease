@@ -1,0 +1,5 @@
+---
+name: consul-snapshot
+dependencies: []
+files:
+- consul-snapshot/consul-snapshot_linux_amd64
