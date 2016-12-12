@@ -1,5 +1,5 @@
 ---
-final_name: consul-snapshot-boshrelease
+final_name: consul-snapshot
 blobstore:
   provider: s3
   options:

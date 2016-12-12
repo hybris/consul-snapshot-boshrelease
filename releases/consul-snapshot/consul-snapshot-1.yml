@@ -16,5 +16,5 @@ license:
   sha1: d906e6052be68a4c70ada0aa467cbfb40e26e278
 commit_hash: d2730676
 uncommitted_changes: true
-name: consul-snapshot-boshrelease
+name: consul-snapshot
 version: '1'
