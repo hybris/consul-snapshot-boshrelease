@@ -25,8 +25,8 @@ jobs:
         default_recursor: (( grab meta.consul.default_recursor ))
       consul-snapshot:
         backupinterval: 60
-        # s3bucket:
-        # s3region:
+        s3bucket: change-me
+        s3region: change-me
         # aws_access_key_id:
         # aws_secret_access_key:
 
