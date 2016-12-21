@@ -29,6 +29,8 @@ set +e
 _bosh upload release --rebase || echo "Continuing..."
 set -e
 
+_bosh upload release https://bosh.io/d/github.com/cloudfoundry-community/consul-boshrelease
+
 ./templates/make_manifest warden
 
 _bosh deploy
